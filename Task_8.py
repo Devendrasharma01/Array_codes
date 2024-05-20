@@ -1,3 +1,6 @@
+ #Find duplicates in O(n) time and O(1) extra space Given an array of n elements that contains elements from 0 to n-1, with any of these numbers appearing any number of times. Find these repeating numbers in O(n) and use only constant memory space.
+
+
 def print_duplicates(arr):
     n = len(arr)
     for i in range(n):
